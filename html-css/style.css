@@ -19,7 +19,8 @@ body {
 }
 
 main {
-    height: 100vh;
+    height: 99vh;
+    width: 99vw;
     position: relative;
 }
 
@@ -39,4 +40,23 @@ iframe#tela {
     left: 22px;
     height: 472px;
     width: 267.5px;
+}
+
+section#redessociais {
+    text-align: right;
+}
+
+section#redessociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+}
+
+section#redessociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.328);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.602);
+    transition: transform 300ms, border 100ms;
 }
